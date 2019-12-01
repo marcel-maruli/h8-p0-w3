@@ -58,7 +58,8 @@ function dataHandling2(arr) {
 
             var hasilSlice = arr[1].slice ("",15)
             console.log (hasilSlice)
-            
+           
+            return bulan = ""
             }
                 
             

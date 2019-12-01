@@ -5,11 +5,9 @@ var input = [
     ["0003", "Winona", "Ambon", "25/12/1965", "Memasak"],
     ["0004", "Bintang Senjaya", "Martapura", "6/4/1970", "Berkebun"],
     ["0005", "Marcel Maruli", "Jakarta", "4/10/1995", "Bermain Komputer"]
-
 ]
 
 function dataHandling(arr) {
-    var penampung = '';
     for (var i = 0; i < arr.length; i++) {
         for (var j = 0; j < arr[i].length; j++){
             switch (j) {
@@ -29,7 +27,7 @@ function dataHandling(arr) {
         }
     }
 }
-return penampung
+return i = ""
 }
 
 console.log(dataHandling(input));

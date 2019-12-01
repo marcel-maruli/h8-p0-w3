@@ -4,10 +4,10 @@ function palindrome(kata) {
     var penampung2 = ''
     for (var i = kata.length-1; i >= 0; i--) {penampung += kata[i]}
     for (var j = 0; j < kata.length; j++) {penampung2 += kata[j]}
-    var inisiasi = false;
-    if (penampung == penampung2){inisiasi = true}
-    else if (penampung != penampung2) {inisiasi = false}
-            return (inisiasi)
+    // var inisiasi = false;
+    // if (penampung == penampung2){inisiasi = true}
+    // else if (penampung != penampung2) {inisiasi = false}
+            return (penampung == penampung2)
         }       
 
   
